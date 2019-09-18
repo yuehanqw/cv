@@ -22,22 +22,8 @@
     font-weight: 600;
 }
 
-.swiper-slide .main.all h2 {
-    padding: 0 0.4rem;
-}
-
-.main.all {
-    height: 100%;
-    width: 100%;
-    position: relative;
-}
-
-.main.all img {
-    height: 100%;
-}
-
 /*第1屏*/
-.page1 h2{
+.page1 h2 {
     position: absolute;
     top: 5%;
     font-size: 0.6rem;
@@ -45,10 +31,12 @@
     width: 100%;
     padding: 0.6rem 0rem;
 }
-.page1 h2>span{
+
+.page1 h2 > span {
     position: relative;
 }
-.page1 h2>span:after{
+
+.page1 h2 > span:after {
     content: '到永远';
     position: absolute;
     right: -0.1rem;
@@ -57,19 +45,23 @@
     font-size: 0.3rem;
     font-weight: 400;
 }
-.page1 h2 b{
+
+.page1 h2 b {
     text-align: right;
 }
-.page1 .main{
+
+.page1 .main {
     display: flex;
     position: relative;
     left: 18px;
 }
+
 .page1 .main img {
     width: auto;
     height: 150px;
 }
-.page1 .main img+img{
+
+.page1 .main img + img {
     position: relative;
     top: 6px;
     left: -37px;
@@ -78,18 +70,6 @@
 /*第2屏*/
 .page2 {
     background: #FFFFEE;
-}
-
-/*代码屏*/
-.page50 {
-    background: url(../images/bg3.jpg) no-repeat center center;
-    -webkit-background-size: 100% 100%;
-    background-size: 100% 100%;
-}
-
-.code {
-    width: 80%;
-    height: 80%;
 }
 
 /*爱心*/
@@ -191,13 +171,5 @@
     to {
         opacity: 0;
         transform: translateY(-8px)
-    }
-}
-
-/*媒体查询*/
-@media only screen and (max-width: 374px) {
-    .code {
-        height: 95%;
-        font-size: 14px;
     }
 }

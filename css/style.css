@@ -11,16 +11,6 @@ textarea{resize:none;}
 .lf{float:left;}
 .rt{float:right;}
 .clear{clear:both;}
-
-/*@font-face {*/
-    /*font-family: 'RuiHeiXiTi';*/
-    /*src: url('../fonts/RuiHeiXiTi.otf') format('truetype');*/
-    /*font-weight: bold;*/
-    /*font-style: normal*/
-/*}*/
-/**{*/
-    /*font-family: 'RuiHeiXiTi';*/
-/*}*/
 body{
     font-size: 17px;
     line-height: 21px;
