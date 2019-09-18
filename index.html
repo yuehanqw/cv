@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head lang="Zh-cn">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-COMPATIBLE" content="IE=edge,chrome=1"/>
@@ -8,32 +7,10 @@
     <meta name="format-detection" content="telephone=no"/>
     <meta name="format-detection" content="email=no">
     <title>一段见证</title>
-    <meta name="keywords" content="">
-    <meta name="Description" content="">
-    <script>
-        (function (doc, win) {
-            var docEl = doc.documentElement,
-                resizeEvt = 'onorientationchange' in window ? 'onorientationchange' : 'resize',
-                recalc = function () {
-                    var clientWidth = docEl.clientWidth;
-                    if (!clientWidth) return;
-                    if (clientWidth >= 750) {
-                        docEl.style.fontSize = '100px';
-                    } else {
-                        docEl.style.fontSize = 100 * (clientWidth / 750) + 'px';
-                    }
-                };
-            if (!doc.addEventListener) return;
-            win.addEventListener(resizeEvt, recalc, false);
-            doc.addEventListener('DOMContentLoaded', recalc, false);
-        })(document, window);
-    </script>
     <link rel="stylesheet" href="css/style.css"/>
     <link rel="stylesheet" href="lib/swiper/css/swiper.min.css">
     <link rel="stylesheet" href="lib/swiper/css/animate.min.css">
-    <link rel="stylesheet" href="css/index.css"/>
 </head>
-
 <body>
 <div class="swiper-container" id="swiper1">
     <div class="swiper-wrapper">
@@ -65,7 +42,7 @@
         </div>
     </div>
     <!-- 页码-->
-    <div class="swiper-pagination swiper-pagination1"></div>
+<!--    <div class="swiper-pagination swiper-pagination1"></div>-->
     <!-- 底部按钮-->
     <div class="pre-wrap-bottom">
         <div class="pre-box1">
@@ -116,8 +93,8 @@
             }
         })
         setInterval(function () {
-            // var together = new Date("2019-01-19 23:01:30").getTime();
-            var together = 1547910090000; // "2019-01-19 23:01:30"
+            var together = new Date("2019/01/19 23:01:30").getTime();
+            // var together = 1547910090000; // "2019-01-19 23:01:30"
             var nowtime = new Date().getTime();
             var cha = (nowtime - together) / 1000;
             var d = parseInt(cha / 3600 / 24);
